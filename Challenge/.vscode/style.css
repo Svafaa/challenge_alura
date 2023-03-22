@@ -1,0 +1,93 @@
+body
+{
+    background-color:white;
+}
+
+
+.cabeçalho
+{
+   margin-left: 10px;
+   padding-top: 10px;
+   width: 2%;
+}
+
+main
+{
+    display: flex;   
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.mensagem
+{
+    border: none;
+    color: rgb(156, 188, 201);
+    margin-top:90px;
+    text-transform:lowercase;  
+    
+}
+
+#output
+{
+    background-color: rgb(219, 234, 255);
+    background-image: url(/.vscode/lupinha.png) ;
+    border: none;
+    border-radius: 20px;
+    border-color: #0A3871;
+    margin-top: 90px;
+    margin-left: 30px;
+    padding-left: 20px;
+
+}
+
+h2
+{
+    padding-top: 130px;
+}
+
+
+.botões
+{
+    display: flex;
+    margin-top: 730px;
+    position: absolute;
+    padding-left: 40px;
+   
+}
+.criptor
+{
+color: aliceblue;
+text-align: center;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px;
+gap: 8px;
+width: 328px;
+height: 67px;
+background: #0A3871;
+border-radius: 24px;
+flex: none;
+order: 0;
+flex-grow: 0;
+padding-left: 38%;
+}
+
+.descriptor
+{
+    box-sizing: border-box;display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    color: black;
+    padding-left: 37%;
+}
